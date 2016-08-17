@@ -6,7 +6,5 @@ extraApps[] = {"ExAd_Scan",};
 		title = "Player Scan";
 		controlID = 77000;					
 		logo = "ExadClient\XM8\Apps\Scan\radarLogo.paa";
-		onLoad = "ExAdClient\XM8\Apps\Scan\onLoad.sqf";
-		onOpen = "ExAdClient\XM8\Apps\Scan\onOpen.sqf";
-		onClose = "ExAdClient\XM8\Apps\Scan\onClose.sqf";
+		quickFunction = "ExileClientXM8CurrentSlide = 'apps';closeDialog 0;[] execVM 'ExAdClient\XM8\Apps\Scan\onOpen.sqf'";
 	};
